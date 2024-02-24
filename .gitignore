@@ -1,6 +1,9 @@
 node_modules
 dist
 
+# Projeto upload-express
 upload-express/uploads/*
 
+# Projeto node-mongo-api
+.env
 

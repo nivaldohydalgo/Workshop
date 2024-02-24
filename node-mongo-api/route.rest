@@ -1,0 +1,29 @@
+
+### Acessando via get
+GET http://localhost:3000/subscribers
+### Incluindo novo
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "userName": "Manoel da Silva",
+    "userChannel": "NH-News"
+}
+### Acessando via get com ID Nivaldo
+GET http://localhost:3000/subscribers/65d92cc4b8b0664c974e825c
+###
+### Acessando via get com ID Silvia
+GET http://localhost:3000/subscribers/65d92ccfb8b0664c974e825e
+###
+### Delete de registro com ID
+DELETE http://localhost:3000/subscribers/65d9332cc14a4ffc921e6e6c
+###
+PATCH http://localhost:3000/subscribers/65d9347acb15a57adbaaa371
+Content-Type: application/json
+
+{
+    "userName": "Carlão Sonsão"
+}
+###
+
+
