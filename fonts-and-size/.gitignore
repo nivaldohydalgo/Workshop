@@ -1,17 +1,4 @@
-node_modules
-dist
-
-# Projeto upload-express
-upload-express/uploads/*
-
-# Projeto node-mongo-api
-.env
-
-
-
-# ========================================================================= #
-                       GITIGNORE PADRÃO DO ANGULAR
-# ========================================================================= #
+# See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
 /dist
